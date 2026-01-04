@@ -133,9 +133,11 @@
     z-index: 2;
 }
 
-.text-actor h2,p{
+.text-actor h2,
+.text-actor p{
     color: var(--text-color);
 }
+
 
 .uesugi{
     min-height: 100vh;
@@ -313,8 +315,29 @@ footer .social-icon a{
         width: 250px;
     }
 
-}
+    .box .text h2{
+        font-size: 20px;
+    }
 
-@media (max-width: 480px){
+    .box .text p{
+        font-size: 15px;
+    }
+
+    .text-actor h2{
+        font-size: 20px;
+    }
+
+    .text-actor p{
+        font-size: 15px;
+    }
+
+    footer{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    footer .social-icon{
+        position: static;
+    }
 
 }
